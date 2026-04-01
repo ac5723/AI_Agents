@@ -1,0 +1,18 @@
+research_task:
+  description: >
+    Search the web for the latest information about "{topic}".
+    Find at least 3 reliable sources and gather key facts,
+    recent developments, and important details.
+  expected_output: >
+    A detailed research report with facts gathered from
+    web searches, including sources where possible.
+
+write_task:
+  description: >
+    Using the research provided, write a well-structured
+    article about "{topic}". Include an introduction,
+    main points, and a conclusion.
+  expected_output: >
+    A complete article with introduction, 3-5 main points,
+    and conclusion. Should be easy to read and engaging.
+  output_file: "output/article.md"
