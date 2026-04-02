@@ -4,7 +4,9 @@ def run():
     inputs = {
         "topic": "Machine Learning"
     }
-    MyAiLearning().crew().kickoff(inputs=inputs)
+    result = MyAiLearning().crew().kickoff(inputs=inputs)
+    print("\n\n=== CREW RESULT ===")
+    print(result)
 
 if __name__ == "__main__":
     run()

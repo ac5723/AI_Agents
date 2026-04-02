@@ -65,6 +65,12 @@ class MyAiLearning():
             agents=self.agents,
             tasks=self.tasks,
             process=Process.sequential,
-            memory=True,               # 👈 crew level memory
+            memory=True,
+            embedder={
+                "provider": "huggingface",
+                "config": {
+                    "model": "sentence-transformers/all-MiniLM-L6-v2"
+                }
+            },
             verbose=True
         )
