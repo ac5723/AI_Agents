@@ -1,0 +1,20 @@
+research_task:
+  description: >
+    Search the web for information about "{topic}".
+    Check your memory first — if you've researched 
+    this before, build on that knowledge.
+    Find key facts and recent developments.
+  expected_output: >
+    A detailed research report with key facts 
+    about {topic}.
+
+write_task:
+  description: >
+    Write a well-structured article about "{topic}"
+    using the research provided. Remember any past
+    articles you've written to maintain consistency
+    in style and tone.
+  expected_output: >
+    A complete article with introduction, main 
+    points, and conclusion about {topic}.
+  output_file: "output/article.md"
