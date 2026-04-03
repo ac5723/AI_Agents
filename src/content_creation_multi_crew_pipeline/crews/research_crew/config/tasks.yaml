@@ -1,0 +1,15 @@
+research_task:
+  description: >
+    Research "{topic}" thoroughly and find
+    key facts, statistics and recent developments.
+  expected_output: >
+    A detailed research report with verified
+    facts about {topic}.
+
+fact_check_task:
+  description: >
+    Review and verify all facts in the research
+    report. Flag any unverified claims.
+  expected_output: >
+    A verified research report with all facts
+    confirmed and sources noted.

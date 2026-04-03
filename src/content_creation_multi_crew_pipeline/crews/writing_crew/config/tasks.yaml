@@ -1,0 +1,17 @@
+write_task:
+  description: >
+    Using the research provided, write a complete
+    article about "{topic}" with introduction,
+    main points and conclusion.
+  expected_output: >
+    A well structured article about {topic}
+    with clear sections and engaging content.
+
+edit_task:
+  description: >
+    Review and improve the written article.
+    Fix grammar, improve flow and ensure
+    the article is engaging and clear.
+  expected_output: >
+    A polished, publication ready article
+    about {topic}.

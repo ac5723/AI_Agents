@@ -1,0 +1,18 @@
+review_task:
+  description: >
+    Review the article about "{topic}" for quality,
+    accuracy and publication standards.
+    Provide feedback and approve or reject.
+  expected_output: >
+    A reviewed article with quality assessment
+    and approval status.
+
+publish_task:
+  description: >
+    Take the reviewed article and prepare it
+    for final publication. Format it properly
+    and add any final touches.
+  expected_output: >
+    A publication ready final article about
+    {topic} formatted and ready to publish.
+  output_file: "output/final_article.md"
